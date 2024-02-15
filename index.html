@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+
+  <title>Tejas Dobariya</title>
+  <meta content="" name="description" />
+  <meta content="" name="keywords" />
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon" />
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon" />
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet" />
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet" />
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet" />
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet" />
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet" />
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet" />
+
+  <!-- =======================================================
+  * Template Name: MyResume - v4.8.1
+  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+  <!-- ======= Mobile nav toggle button ======= -->
+  <!-- <button type="button" class="mobile-nav-toggle d-xl-none"><i class="bi bi-list mobile-nav-toggle"></i></button> -->
+  <i class="bi bi-list mobile-nav-toggle d-xl-none"></i>
+  <!-- ======= Header ======= -->
+  <header id="header" class="d-flex flex-column justify-content-center">
+    <nav id="navbar" class="navbar nav-menu">
+      <ul>
+        <li>
+          <a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a>
+        </li>
+        <li>
+          <a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>About</span></a>
+        </li>
+        <li>
+          <a href="#resume" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Resume</span></a>
+        </li>
+        <li>
+          <a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contact</span></a>
+        </li>
+      </ul>
+    </nav>
+    <!-- .nav-menu -->
+  </header>
+  <!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-center">
+    <div class="container" data-aos="zoom-in" data-aos-delay="100">
+      <h1>Tejas Dobariya</h1>
+      <p>
+        I'm
+        <span class="typed" data-typed-items="Software Developer, Competitive Coder"></span>
+      </p>
+      <div class="social-links">
+        <a href="https://www.leetcode.com/dobariyatejas15" target="_blank"><img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAYJJREFUSEvllf0xRDEUR89WgA50gArQARWgElSCCugAFaCCLQEdmDOTmGy8vNw3+8aOcf/afcnNuV/5ZcGGbLEhLn8afA4sgecp1Zsj4w9gC7gDDCJk64L3gZdEugBuQ1RYu8dmeJNgB8Drb4HN8Az4BLajUPetW2oz3EuDdTQ32HIeAvawNDN8Tx+ugav02yo89frdyziX0jPr4THDxwQ7TrCy5/rWwX4H3gKbjYc6tZo9FFQOjxlepvUdwGvlfrP1emnuNyjXVmwIrLPQPCxvCVo7C7AFrucAPVw/1+y9pp/wlYmvwWWpdBoThZ5wlG360aoSfALcF/UYE4SocNSJnAIP9XWaAo4KRwhsIPXG1mRGhCNc6lzlyGSOCUfkRjSVa2wyW8Jh4NEb0ZXMIQEZEo5crbJVo89kT7ly34Xlt3ZIOEpxmEUya8Hxf0s4hvY2v0Uyrp17whEKYCo4Khxd+FRwVDhmB0eEowutJTPkkF6q3d5D3ztsaql754XX/x/4C7SvZR+uZb5OAAAAAElFTkSuQmCC"
+            alt="leetocde" /></a>
+        <a href="https://www.instagram.com/_tejas.10/" class="instagram" target="_blank"><img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAAeNJREFUSEvlltsxREEQhr+NABEgAkSACBAAhQTIABEgApcEEAGePaDKOxkgAurbmtk6puacnbNnq5bSL3uZy9/999/d02NC1psQLr8eeBpYKGTnGfgYtrcpYsEOgHVgbthFyfobcA0c1TlRB7wCnFUAP4GnQvBFYCrs1YGN3NkcsJE+BtAbYB/wgjYm+AmwHM4upZHngD2wBwgqzW1tE/qivQTuAvhpCGBwVw7Y6GaB+REiFVRAbSecvw2f3lcLLM3vgMqUrpz5/1pl3dzLjp9bwEU4tBt08hV+z1TpTiNWVHp4D/g9tcOg9JxDrqni7UD1C/AQHLIUVwP1/bNtgCOoClcH5k/TQQWokgV2X9VinkcCll6VLqg1nTYIU6Q2BE+10Qk4RpuLKEYXqyHd0wnYLqSgftCVUGrpXWXK8G8CT4zqKC5FpXhy4noFFNlYxWU6Y9SCVsvJ3Fq7go69nKKOmhpIneLtaEMbSGyZbnai5Mw6NsLYUt173tDXi1qmQF2GROpobME2HoMaWNNYtHYd4l2s1VjUM+lzNHowjrc2DpiG49DHs2226elj3gTXVHKbp0+kVVBVHwdKI9Vx0cOqWCHFN1Rp1AKaKqdW9sVZ+q5WyaUvzSJ2SoFLIy3e9/+AvwFbBJcf5iwWnQAAAABJRU5ErkJggg==" /></a>
+        <a href="https://www.linkedin.com/in/tejas-dobariya-2802591b7/" class="linkedin" target="_blank"><img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAB4AAAAeCAYAAAA7MK6iAAAAAXNSR0IArs4c6QAAATlJREFUSEvt1rEuREEUxvHfPoCg0KhoVfQkPAFaiYQoKOl0eALR6ZBIlLyAEHqh0noEEg8gJ9mN2cllYzM3u5F7ujtn5vznfHNmzm0ZkLUGxDV04A1M4BZPdahSlfEj5hPYOi5Lw3PwNk4zyCtm6gYf4DCDfGKkbvACHjLIFdbqBkf8HexjEtfYQmRd1IbuOvWb3SxG24tf8P5ToDzjRdxlk4+SgovCiwJMLWKs4BhTme8Ge3jLN1ACvImzXyQK6FyefQlwyDnW42xOsJvLlH73I3W6/iM543Q8sp6uAxxyn7cDV20+XOOp3CWkvkA0ldSiqJazsSXcd8ZKgFcRoNSqqr84uCtgm96AQ4hG6q5q7OcBaYorJPzzdYrHPnpq/s522lq0vbz1PVf03Z7z/s0fSI/u+O0eWMZfIm1tH9MvfWIAAAAASUVORK5CYII=" /></a>
+        <a href="https://www.github.com/tejasdobariya/" class="github" target="_blank"><img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADgAAAA4CAMAAACfWMssAAAAZlBMVEX///8XFRUAAAATEREKBgYRDg7t7e2BgIA3NjbZ2dlTUlLq6urCwsKJiIjGxsb39/ebm5uPj492dXVwcHC5ubnMzMyqqqo+PT1OTU0lJCRYWFiysrIwLy/j4+NIR0d7e3tkY2MdGxs/J1iEAAAB9klEQVRIie2W23aDIBBFdUCNmqjUaDRGY/7/JztcvOFg0qeurtXzZIFNYWY4E8/71x9QXtWFEEVd5T+hevGAWQ/Rf4hVDUDgzwoAhuoDLEyA+5Y4NOE7rttjGu2OuSdQmBR8HXGjk0NydHPlAYdk6eIK0EEEtiUY6DBDQXO94k5eLAC/GJdJ5LgHgIi9QZExCbbLrgUySfmMygQ/xHKaF8XV6oJwVX+k6TQc6q+znq0JUN8MzvQ9KtC33c9cdURdiXZPD/ww5qYy+GBP5CaF4HgK6TRvP7PpKILmTFjn4C26AL3hIrPgYg3f1RWDm5PzErWC363hF3v3BCKdELsGHAdZSZglNPh0g5cjkI9usKRBn5E3WOmkDIz51nDC36TDVAhPrPHIHIQqf6XOLIjoccZdoL7LvsrDqRYdmZzsD3YGq+4eEGdRMrmQzmJLGkCA5u/Dbecs8W2yPyoG4PNSbR1gn8nm19Vnol1aCeEA8t3AoA+FFjnX8rjuQLRBoulIsoVNDKYX7rIcT/sRvtN8QEtsl+HH6h862h0WgYpaWqWr0fvcvuiASzVAeMcMQuPiPA/DDols+/0ehAN3wFrHpMiesdrcgGBXtyWhgr92FgUGbvubFLeYFgtk0NJ9aquObY6KZcje/ACYlZWr1nMusw+xf/2evgEGFBJqrqKT4AAAAABJRU5ErkJggg=="
+            height="40px" /></a>
+      </div>
+    </div>
+  </section>
+  <!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>About Me</h2>
+          <p>
+            Hey There! My name is Tejas Dobariya. My home city is Rajkot. I am
+            currently pursuing Computer Engineering from Dharmsinh Desai
+            University, Nadiad. My interest is in Web development. I have
+            developed several web applications as College Projects.
+          </p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4">
+            <img
+              src="https://media.licdn.com/dms/image/D5603AQGsqgOqjy5Ffg/profile-displayphoto-shrink_800_800/0/1680660671583?e=2147483647&v=beta&t=Se_rrQIDlTI7euCbAv5v45FPreAT8virI1AUvGC99F4"
+              class="img-fluid" alt="" />
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Student</h3>
+            <p class="fst-italic">
+              Currently I have completed 6th Semester B.Tech.
+            </p>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Birthday:</strong> <span>18 October 2001</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Phone:</strong> <span>+91 70693 13298</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>City:</strong> <span>Rajkot, India</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i> <strong>Age:</strong>
+                    <span>22</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Degree:</strong> <span>B.Tech. in Computer Engineering (Pursuing)</span>
+                  </li>
+                  <li>
+                    <i class="bi bi-chevron-right"></i>
+                    <strong>Email:</strong>
+                    <span>dobariyatejas15@gmail.com</span>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End About Section -->
+
+    <!-- ======= Skills Section ======= -->
+    <section id="skills" class="skills section-bg">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Skills</h2>
+          <p>
+            Languages used for projects and estimated skill levels on them
+            according to me.
+          </p>
+        </div>
+
+        <div class="row skills-content">
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill">C/C++ <i class="val">95%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">HTML/CSS <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">JavaScript <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <div class="progress">
+              <span class="skill">.NET <i class="val">80%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Java <i class="val">90%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+
+            <div class="progress">
+              <span class="skill">Python <i class="val">85%</i></span>
+              <div class="progress-bar-wrap">
+                <div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Skills Section -->
+
+    <!-- ======= Resume Section ======= -->
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Resume</h2>
+          <a href="https://github.com/priteshparmar9/priteshparmar9.github.io/raw/main/1st_CV.pdf">
+            (Download)</a>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-6">
+            <h3 class="resume-title">Sumary</h3>
+            <div class="resume-item pb-0">
+              <h4>Pritesh Parmar</h4>
+              <ul>
+                <li>Mavdi, Rajkot</li>
+                <li>+91 94283 49690</li>
+                <li>priteshparmar19273@gmail.com</li>
+              </ul>
+            </div>
+
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>Bachelor of Technology - Computer Engineering</h4>
+              <h5>2020 - 2024</h5>
+              <p><em>Dharmsinh Desai University, Nadiad</em></p>
+              <p>Current CPI: 7.87</p>
+            </div>
+            <div class="resume-item">
+              <h4>12th Science</h4>
+              <h5>2019 - 2020</h5>
+              <p><em>Dholakiya School, Rajkot</em></p>
+              <p>Completed 12th with A2 grade and 96.76PR in GSEB.</p>
+            </div>
+            <div class="resume-item">
+              <h4>SSC</h4>
+              <h5>2017 - 2018</h5>
+              <p><em>Dholakiya School, Rajkot</em></p>
+              <p>
+                Completed 10th with 10th Rank in state, A1 grade and 99.90 PR
+                in GSEB.
+              </p>
+            </div>
+            <h3 class="resume-title">Qualifications And Certifications</h3>
+            <div class="resume-item">
+              <h4>GATE</h4>
+              <h5>2023</h5>
+              <p><em>I have qualified GATE with 94.8 PR.</em></p>
+            </div>
+            <div class="resume-item">
+              <h4>Other Certificates</h4>
+              <a href="https://drive.google.com/file/d/1nlXntkUxEdViVwJUuSt4JoPBYrgvxIBZ/view" target="_blank">TCS
+                Codevita (1040 Rank)</a>
+              <br />
+              <a target="_blank" href="https://drive.google.com/file/d/1Vd8uwlnJSdjGnPhqbhNOSXMthgGys0GQ/view">
+                FlipKart Grid
+              </a>
+              <!-- <p><em>Dholakiya School, Rajkot</em></p>
+                <p>Completed 12th with A2 grade and 96.76PR in GSEB.</p> -->
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <h3 class="resume-title">Projects</h3>
+            <div class="resume-item">
+              <h4>BookBob</h4>
+              <h5>Backend</h5>
+              <p><em>Java / Spring </em></p>
+              <ul>
+                <li>
+                  Got a lot of experience in Backend development and group
+                  leader.
+                </li>
+                <li>
+                  BookBob is a online book selling website where author can
+                  write their books, articles, novels and sell them.
+                </li>
+                <li>
+                  This website was built during 4th semester of BTech by me
+                  and a friend of mine.
+                </li>
+                <li>
+                  <a href="https://github.com/priteshparmar9/BookBob" target="_blank">Source</a>
+                </li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>Movie Rating And Review</h4>
+              <h5>Backend</h5>
+              <p><em>JavaScript / MERN</em></p>
+              <ul>
+                <li>First Project made with MERN Stack.</li>
+                <li>
+                  It is web application where user can see reviews of movies
+                  and can also give reviews and ratings. Where movies can be
+                  added by admin.
+                </li>
+                <li>
+                  This website was built during 5rd semester of BTech by me
+                  and Madhav Parmar as College Project.
+                </li>
+                <li>
+                  <a href="https://www.pritesh.me" target="_blank">(Live)</a>
+                  <a href="https://github.com/priteshparmar9/Movie-Rating-Web-App" target="_blank">(Source)</a>
+                </li>
+              </ul>
+            </div>
+            <div class="resume-item">
+              <h4>EAuction</h4>
+              <h5>Full Stack</h5>
+              <p><em>JavaScript / MERN</em></p>
+              <ul>
+                <li>
+                  It is a auction web app where seller can post the products
+                  and user can bid on these products. Highest bidder wins the
+                  bid and product goes to the winner.
+                </li>
+                <li>
+                  This website is solely made by me using stuffs on internet!
+                  It is my personal project where I got familiar with
+                  JWT/Oauth. Here I also learned about Socket.IO.
+                </li>
+                <li>
+                  <a href="https://eauction.pritesh.me" target="_blank">(Live)</a>
+                  <a href="https://github.com/priteshparmar9/Movie-Rating-Web-App" target="_blank">(Source)</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Resume Section -->
+
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+          <div class="col-lg-4">
+            <div class="info">
+              <div class="address">
+                <i class="bi bi-geo-alt"></i>
+                <h4>Location:</h4>
+                <p>Mavdi, Rajkot</p>
+              </div>
+
+              <div class="email">
+                <i class="bi bi-envelope"></i>
+                <h4>Email:</h4>
+                <p>email.pritesh.parmar@gmail.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="bi bi-phone"></i>
+                <h4>Call:</h4>
+                <p>+91 94283 49690</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-8 mt-5 mt-lg-0">
+            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+              <div class="row">
+                <div class="col-md-6 form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required />
+                </div>
+                <div class="col-md-6 form-group mt-3 mt-md-0">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required />
+                </div>
+              </div>
+              <div class="form-group mt-3">
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required />
+              </div>
+              <div class="form-group mt-3">
+                <textarea class="form-control" name="message" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">
+                  Your message has been sent. Thank you!
+                </div>
+              </div>
+              <div class="text-center">
+                <button type="submit">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End Contact Section -->
+  </main>
+  <!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Pritesh Parmar</h3>
+      <div class="copyright">
+        &copy; Made from template from<strong><span>BootstrapMade.com</span></strong>
+      </div>
+    </div>
+  </footer>
+  <!-- End Footer -->
+
+  <div id="preloader"></div>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/vendor/typed.js/typed.min.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
